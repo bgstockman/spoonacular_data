@@ -20,7 +20,7 @@ conn_string = os.environ.get('CONN_STRING')
 ## can make 30 such calls per day on free tier
 counter = 0
 if __name__ == "__main__":
-    while(counter < 5):
+    while(counter < 30):
         counter += 1
         time.sleep(1)
         ### pull data from API
